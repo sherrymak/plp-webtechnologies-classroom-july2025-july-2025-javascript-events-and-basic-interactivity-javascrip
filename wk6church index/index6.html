@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mutonya Church</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Mutonya Church</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#verses">Bible Verse</a></li>
+        <li><a href="#prayer">Prayer Request</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <h2>About Our Church</h2>
+    <p>Mutonya Church is a community of believers dedicated to spreading love, faith, and service.</p>
+    <button id="welcomeBtn">Click for a Blessing Message</button>
+    <p id="welcomeMessage" class="hidden"></p>
+  </section>
+
+  <section id="verses" class="section">
+    <h2>Daily Bible Verse</h2>
+    <button id="verseBtn">Show Random Verse</button>
+    <p id="verseDisplay"></p>
+  </section>
+
+  <section id="prayer" class="section">
+    <h2>Prayer Request Form</h2>
+    <form id="prayerForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+
+      <label for="request">Your Prayer Request:</label>
+      <textarea id="request" name="request"></textarea>
+
+      <button type="submit">Submit Request</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: info@mutonyachurch.org</p>
+    <p>Phone: +254 712 345 678</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mutonya Church | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
